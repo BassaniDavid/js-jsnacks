@@ -2,13 +2,16 @@
 // L’utente inserisce due parole in successione, con due prompt.
 // Il software stampa prima la parola più corta, poi la parola più lunga
 
-let firstWord;
-let secondWord;
+let firstWord
+let secondWord
 firstWord = prompt('inserisci la prima parola')
 secondWord = prompt('inserisci la seconda parola')
 
 if(firstWord.length>secondWord.length){
+    console.log(secondWord)
     console.log(firstWord)
+    
 } else{
+    console.log(firstWord)
     console.log(secondWord)
 }
